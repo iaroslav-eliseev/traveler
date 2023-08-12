@@ -1,0 +1,38 @@
+.slideshow__text {
+  max-width: 70%;
+  position: absolute;
+  bottom: 20px;
+  left: 10%;
+  right: 10%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 20px 30px;
+}
+
+.slideshow__text h5 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+}
+
+.slideshow__text p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1279.98px) {
+  
+}
+
+@media screen and (max-width: 1023.98px) {
+  
+}
+
+@media screen and (max-width: 767.98px) {
+  
+}
+
+@media screen and (max-width: 479.98px) {
+  
+}

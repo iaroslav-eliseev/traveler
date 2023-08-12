@@ -1,0 +1,27 @@
+.routs__audio {
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 1279.98px) {
+  .routs__audio {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 1023.98px) {
+  .routs__audio {
+    width: 215px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .routs__audio {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 479.98px) {
+  .routs__audio {
+    width: 285px;
+  }
+}

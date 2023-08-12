@@ -1,0 +1,16 @@
+.carousel {
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+}
+
+.carousel__title {
+  margin: 20px auto 10px 50px;
+  max-width: fit-content;
+}
+
+.carousel__text {
+ margin: 0 50px 0 auto;
+ max-width: fit-content;
+ text-align: left;
+}

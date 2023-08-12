@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Comfortaa';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("./Comfortaa-Light.woff2") format("woff2"),
+       url("./Comfortaa-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./Comfortaa-Medium.woff2") format("woff2"),
+       url("./Comfortaa-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./Comfortaa-Bold.woff2") format("woff2"),
+       url("./Comfortaa-Bold.woff") format("woff");
+}

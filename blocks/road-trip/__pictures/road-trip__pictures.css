@@ -1,0 +1,10 @@
+.road-trip__pictures {
+  margin: 0;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(5, auto);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  border: 2px blue solid;
+}

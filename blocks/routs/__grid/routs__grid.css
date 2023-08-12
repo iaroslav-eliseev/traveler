@@ -1,0 +1,34 @@
+.routs__grid {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  gap: 60px;
+}
+
+@media screen and (max-width: 1279.98px) {
+  .routs__grid {
+    grid-template-columns: repeat(3, 290px);
+    gap: 45px;
+  }
+}
+
+@media screen and (max-width: 1023.98px) {
+  .routs__grid {
+    grid-template-columns: repeat(3, 210px);
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .routs__grid {
+    grid-template-columns: 80vw;
+    grid-template-rows: repeat(3, auto);
+    gap: 100px;
+  }
+}
+
+@media screen and (max-width: 479.98px) {
+  .routs__grid {
+    gap: 70px;
+  }
+}

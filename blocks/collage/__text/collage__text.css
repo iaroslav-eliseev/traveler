@@ -1,0 +1,41 @@
+.collage__text {
+  margin: 0;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: left;
+}
+
+.collage__text b {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1279.98px) {
+  .collage__text {
+    font-size: 22px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 1023.98px) {
+  .collage__text {
+    font-size: 17px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .collage__text {
+    font-size: 20px;
+    line-height: 23px;
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 479.98px) {
+  .collage__text {
+    font-size: 17px;
+    line-height: 19px;
+    padding: 0 25px;
+  }
+}

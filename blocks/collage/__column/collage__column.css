@@ -1,0 +1,28 @@
+.collage__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 25px;
+}
+
+@media screen and (max-width: 1279.98px) {
+  .collage__column {
+    gap: 17px;
+  }
+}
+
+@media screen and (max-width: 1023.98px) {
+  .collage__column {
+    gap: 11px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .collage__column {
+    width: 85vw;
+  }
+}
+
+@media screen and (max-width: 479.98px) {
+  
+}

@@ -1,0 +1,26 @@
+.header__links {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1023.98px) {
+  .header__links {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .header__links {
+    flex-direction: column;
+    gap: 10px;
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 479.98px) {
+  .header__links {
+    gap: 6px;
+    width: 130px;
+  }
+}

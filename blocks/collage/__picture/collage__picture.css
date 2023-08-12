@@ -1,0 +1,22 @@
+.collage__picture {
+  width: 45%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1279.98px) {
+  
+}
+
+@media screen and (max-width: 1023.98px) {
+  
+}
+
+@media screen and (max-width: 767.98px) {
+  .collage__picture {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 479.98px) {
+  
+}

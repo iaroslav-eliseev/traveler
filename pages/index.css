@@ -1,0 +1,61 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+
+/* block header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/header__link.css);
+
+/* block content */
+@import url(../blocks/content/content.css);
+
+/* section introduction */
+@import url(../blocks/introduction/introduction.css);
+@import url(../blocks/introduction/__name/introduction__name.css);
+@import url(../blocks/introduction/__logo/introduction__logo.css);
+@import url(../blocks/introduction/__title/introduction__title.css);
+@import url(../blocks/introduction/__subtitle/introduction__subtitle.css);
+
+/* section collage */
+@import url(../blocks/collage/collage.css);
+@import url(../blocks/collage/__picture/collage__picture.css);
+@import url(../blocks/collage/__text/collage__text.css);
+@import url(../blocks/collage/__column/collage__column.css);
+
+/* section road-trip */
+@import url(../blocks/road-trip/road-trip.css);
+@import url(../blocks/road-trip/__text/road-trip__text.css);
+@import url(../blocks/road-trip/__pictures/road-trip__pictures.css);
+@import url(../blocks/road-trip/__picture/road-trip__picture.css);
+
+/* section tagline */
+@import url(../blocks/tagline/tagline.css);
+@import url(../blocks/tagline/__title/tagline__title.css);
+@import url(../blocks/tagline/__button/tagline__button.css);
+
+
+/* section slideshow */
+@import url(../blocks/slideshow/slideshow.css);
+@import url(../blocks/slideshow/__item/slideshow__item.css);
+@import url(../blocks/slideshow/__pic/slideshow__pic.css);
+@import url(../blocks/slideshow/__text/slideshow__text.css);
+
+/* section routs */
+@import url(../blocks/routs/routs.css);
+@import url(../blocks/routs/__grid/routs__grid.css);
+@import url(../blocks/routs/__flex/routs__flex.css);
+@import url(../blocks/routs/__title/routs__title.css);
+@import url(../blocks/routs/__card/routs__card.css);
+@import url(../blocks/routs/__subtitle/routs__subtitle.css);
+@import url(../blocks/routs/__pic/rouds__pic.css);
+@import url(../blocks/routs/__text/rouds__text.css);
+@import url(../blocks/routs/__audio/routs__audio.css);
+
+
+
+@import url(../blocks/carousel/carousel.css);
+
+
+@import url(../blocks/footer/footer.css);

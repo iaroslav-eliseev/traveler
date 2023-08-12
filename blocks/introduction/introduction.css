@@ -1,0 +1,31 @@
+.introduction {
+  margin: 70px auto 150px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 1279.98px) {
+  .introduction {
+    margin: 55px auto 150px;
+  }
+}
+
+@media screen and (max-width: 1023.98px) {
+  .introduction {
+    margin: 50px auto 100px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .introduction {
+    margin: 50px auto 80px;
+  }
+}
+
+@media screen and (max-width: 479.98px) {
+  .introduction {
+    margin: 35px auto 60px;
+  }
+}

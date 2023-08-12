@@ -1,0 +1,9 @@
+.road-trip {
+  margin: 120px auto;
+  padding: 0 15px;
+  max-width: 1280px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

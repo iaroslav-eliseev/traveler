@@ -1,0 +1,36 @@
+.introduction__subtitle {
+  max-width: 900px;
+  margin: 20px auto 0;
+  padding: 0 25px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 27px;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 1279.98px) {
+  .introduction__subtitle {
+    font-size: 22px;
+    line-height: 25px;  
+  }
+}
+
+/* @media screen and (max-width: 1023.98px) {
+  .introduction__subtitle {
+
+  }
+} */
+
+@media screen and (max-width: 767.98px) {
+  .introduction__subtitle {
+    font-size: 20px;
+    line-height: 23px;  
+  }
+}
+
+@media screen and (max-width: 479.98px) {
+  .introduction__subtitle {
+    font-size: 17px;
+    line-height: 19px;  
+  }
+}
