@@ -14,14 +14,15 @@
 }
 
 .tagline__button {
+  max-width: 655px;
   overflow: hidden;
   position: relative;
-  padding: 25px 60px;
-  max-width: 700px;
+  padding: 25px 40px;
   text-align: center;
   text-decoration: none;
-  font-size: 30px;
-  line-height: 37px;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 50px;
   background-color: rgba(64, 166, 255, 0.64);
   color: #1a1818d0;
   border: none;
@@ -56,4 +57,29 @@
 
 .tagline__button::before {
   animation: shiny-btn1 3s ease-in-out infinite;
+}
+
+@media screen and (max-width: 1023.98px) {
+  .tagline__button {
+    padding: 18px 30px;
+    font-size: 34px;
+    line-height: 37px; 
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .tagline__button {
+    padding: 15px 25px;
+    font-size: 30px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (max-width: 479.98px) {
+  .tagline__button {
+    max-width: 300px;
+    padding: 8px 14px;
+    font-size: 25px;
+    line-height: 27px;
+  }
 }

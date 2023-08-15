@@ -1,5 +1,21 @@
 .footer {
   margin: 50px auto 0;
   padding-bottom: 50px;
-  background-color: #f0ffff;
+  background-color: rgba(94, 94, 94, 0.7);
+}
+
+@media screen and (max-width: 1279.98px) {
+  
+}
+
+@media screen and (max-width: 1023.98px) {
+  
+}
+
+@media screen and (max-width: 767.98px) {
+  
+}
+
+@media screen and (max-width: 479.98px) {
+  
 }

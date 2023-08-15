@@ -1,16 +1,140 @@
 .carousel {
-  margin: 0 auto;
+  margin: 0 auto 100px;
   width: 80%;
   height: auto;
+  -webkit-box-shadow: 0px 0px 39px 24px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 39px 24px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 39px 24px rgba(34, 60, 80, 0.2);
+  background-color: #e9edff;
+}
+
+.carousel__block {
+  /* padding: 10px; */
+}
+
+.carousel__pic {
+  width: 100%;
+  border: inset 20px #616eff37;
+}
+
+.carousel__info {
+  margin: 35px auto;
+  display: grid;
+  grid-template-columns: 520px 450px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 
 .carousel__title {
-  margin: 20px auto 10px 50px;
-  max-width: fit-content;
+  margin: 0;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 40px;
+  text-align: right;
+  text-transform: uppercase;
 }
 
 .carousel__text {
- margin: 0 50px 0 auto;
- max-width: fit-content;
- text-align: left;
+  margin: 0;
+  padding: 0 0 0 15px;
+  list-style-type: none;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 22px;
+  border-left: solid 3px #676767;
+}
+
+
+
+@media screen and (max-width: 1279.98px) {
+  .carousel__pic {
+    border: inset 17px #616eff37;
+  }
+
+  .carousel__info {
+    grid-template-columns: 413px 380px;
+    gap: 12px;
+  }
+
+  .carousel__title {
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .carousel__text {
+    font-size: 14px;
+    line-height: 19px;
+    padding: 0 0 0 12px;
+  }
+}
+
+@media screen and (max-width: 1023.98px) {
+  .carousel__pic {
+    border: inset 14px #616eff37;
+  }
+
+  .carousel__info {
+    grid-template-columns: 300px 280px;
+    gap: 9px;
+  }
+
+  .carousel__title {
+    font-size: 23px;
+    line-height: 27px;
+  }
+
+  .carousel__text {
+    font-size: 10px;
+    line-height: 15px;
+    padding: 0 0 0 9px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .carousel__pic {
+    border: inset 10px #616eff37;
+  }
+
+  .carousel__info {
+    margin: 15px auto;
+    grid-template-columns: 90%;
+    grid-template-rows: 54px auto;
+    gap: 5px;
+  }
+
+  .carousel__title {
+    text-align: center;
+  }
+
+  .carousel__text {
+    text-align: left;
+    border-top: solid 2px #676767;
+    border-left: none;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 15px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 479.98px) {
+  .carousel__pic {
+    border: inset 8px #616eff37;
+  }
+
+  .carousel__info {
+    grid-template-rows: 38px auto;
+  }
+
+  .carousel__title {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .carousel__text {
+    font-size: 9px;
+    line-height: 13px;
+    padding: 7px 0 0 0;
+    border-top: solid 1px #676767;
+  }
 }
