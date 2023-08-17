@@ -1,9 +1,12 @@
 .introduction {
   margin: 70px auto 150px;
+  padding: 50px 0;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #E6E6E6;
+  border-radius: 50px;
 }
 
 @media screen and (max-width: 1279.98px) {
@@ -29,3 +32,12 @@
     margin: 35px auto 60px;
   }
 }
+
+
+
+
+/* 
+#e1dddc
+#f4f4f4
+#f3f3f3 
+*/
