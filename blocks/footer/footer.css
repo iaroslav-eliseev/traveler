@@ -5,7 +5,7 @@
 }
 
 .footer__flex {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 30px;
   position: relative;
@@ -23,7 +23,7 @@
 }
 
 .footer__contacts {
-  width: 250px;
+  width: auto;
   white-space: nowrap;
   margin: 0 ;
   font-weight: 200;
@@ -74,10 +74,17 @@
 
   .footer__contacts {
     font-size: 12px;
-    line-height: 14px;
+    line-height: 15px;
   }
 }
 
 @media screen and (max-width: 479.98px) {
-  
+  .footer__info {
+    font-size: 11px;
+  }
+
+  .footer__contacts {
+    font-size: 11px;
+    line-height: 14px;
+  }
 }
