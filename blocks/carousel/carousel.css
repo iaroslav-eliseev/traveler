@@ -1,6 +1,6 @@
 .carousel {
   margin: 0 auto 100px;
-  width: 80%;
+  max-width: 900px;
   height: auto;
   -webkit-box-shadow: 0px 0px 39px 24px rgba(34, 60, 80, 0.2);
   -moz-box-shadow: 0px 0px 39px 24px rgba(34, 60, 80, 0.2);
@@ -25,8 +25,8 @@
 .carousel__title {
   margin: 0;
   font-weight: 500;
-  font-size: 38px;
-  line-height: 40px;
+  font-size: 33px;
+  line-height: 36px;
   text-align: right;
   text-transform: uppercase;
 }
@@ -35,10 +35,23 @@
   margin: 0;
   padding: 0 0 0 15px;
   list-style-type: none;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 17px;
   line-height: 22px;
   border-left: solid 3px #676767;
+}
+
+.button {
+  width: 4rem !important;
+  height: 4rem !important;
+}
+
+.right {
+  opacity: 1 !important;
+}
+
+.left {
+  opacity: 1 !important;
 }
 
 
@@ -51,6 +64,7 @@
   .carousel__info {
     grid-template-columns: 413px 380px;
     gap: 12px;
+    margin: 28px auto;
   }
 
   .carousel__title {
@@ -59,19 +73,21 @@
   }
 
   .carousel__text {
-    font-size: 14px;
-    line-height: 19px;
     padding: 0 0 0 12px;
   }
 }
 
 @media screen and (max-width: 1023.98px) {
+  .carousel {
+    max-width: 700px;
+  }
+
   .carousel__pic {
     border: inset 14px #616eff37;
   }
 
   .carousel__info {
-    grid-template-columns: 300px 280px;
+    grid-template-columns: 290px 340px;
     gap: 9px;
   }
 
@@ -81,13 +97,17 @@
   }
 
   .carousel__text {
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 15px;
+    line-height: 16px;
     padding: 0 0 0 9px;
   }
 }
 
 @media screen and (max-width: 767.98px) {
+  .carousel {
+    max-width: 440px;
+  }
+
   .carousel__pic {
     border: inset 10px #616eff37;
   }
@@ -114,22 +134,26 @@
 }
 
 @media screen and (max-width: 479.98px) {
+  .carousel {
+    width: 95vw;
+  }
+
   .carousel__pic {
     border: inset 8px #616eff37;
   }
 
   .carousel__info {
-    grid-template-rows: 38px auto;
+    grid-template-rows: 43px auto;
   }
 
   .carousel__title {
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 21px;
+    line-height: 23px;
   }
 
   .carousel__text {
-    font-size: 9px;
-    line-height: 13px;
+    font-size: 16px;
+    line-height: 19px;
     padding: 7px 0 0 0;
     border-top: solid 1px #676767;
   }

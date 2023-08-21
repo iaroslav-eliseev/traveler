@@ -1,7 +1,11 @@
-.header__links {
+.header__flex {
+  max-width: 1100px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 25px;
   display: flex;
-  justify-content: start;
-  gap: 25px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media screen and (max-width: 1279.98px) {
@@ -17,7 +21,7 @@
 }
 
 @media screen and (max-width: 479.98px) {
-  .header__links {
-    gap: 10px;
+  .header__flex {
+    padding: 0 10px;
   }
 }

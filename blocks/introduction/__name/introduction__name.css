@@ -1,12 +1,12 @@
 .introduction__name {
   margin: 0 auto 50px;
-  padding: 0 15px;
-  max-width: 1200px;
+  padding: 0 25px;
+  max-width: 900px;
   font-style: normal;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 65px;
-  line-height: 68px;
+  font-size: 60px;
+  line-height: 60px;
   text-align: center;
 }
 

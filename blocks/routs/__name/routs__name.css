@@ -1,0 +1,33 @@
+.routs__name {
+  margin: 15px auto 10px;
+  padding-left: 10px;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 22px;
+}
+
+.routs__name-centre {
+  text-align: center;
+}
+
+@media screen and (max-width: 1279.98px) {
+  
+}
+
+@media screen and (max-width: 1023.98px) {
+  .routs__name {
+    font-size: 19px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .routs__name {
+    font-size: 25px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 479.98px) {
+  
+}

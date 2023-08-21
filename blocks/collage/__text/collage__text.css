@@ -1,26 +1,26 @@
 .collage__text {
   margin: 0;
   font-weight: 300;
-  font-size: 24px;
-  line-height: 27px;
+  font-size: 21px;
+  line-height: 25px;
   text-align: left;
 }
 
 .collage__text b {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 1279.98px) {
   .collage__text {
-    font-size: 22px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 23px;
   }
 }
 
 @media screen and (max-width: 1023.98px) {
   .collage__text {
-    font-size: 17px;
-    line-height: 18px;
+    font-size: 18px;
+    line-height: 19px;
   }
 }
 
@@ -28,7 +28,7 @@
   .collage__text {
     font-size: 20px;
     line-height: 23px;
-    padding: 0 30px;
+    padding: 0 15px;
   }
 }
 
@@ -36,6 +36,6 @@
   .collage__text {
     font-size: 17px;
     line-height: 19px;
-    padding: 0 25px;
+    padding: 0 10px;
   }
 }

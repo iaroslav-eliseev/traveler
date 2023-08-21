@@ -1,8 +1,12 @@
 .collage__column {
+  padding: 25px;
   display: flex;
   flex-direction: column;
   justify-content: start;
-  gap: 25px;
+  gap: 20px;
+  background-color: #e3f4ff;
+  border-radius: 35px;
+  border: solid 1px #97d5ff;
 }
 
 @media screen and (max-width: 1279.98px) {
@@ -14,12 +18,14 @@
 @media screen and (max-width: 1023.98px) {
   .collage__column {
     gap: 11px;
+    padding: 15px;
   }
 }
 
 @media screen and (max-width: 767.98px) {
   .collage__column {
     width: 85vw;
+    padding: 20px 10px;
   }
 }
 

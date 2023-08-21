@@ -1,43 +1,41 @@
 .introduction {
-  margin: 70px auto 150px;
+  max-width: 990px;
+  margin: 100px auto 130px;
   padding: 50px 0;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #E6E6E6;
-  border-radius: 50px;
+  background-color: #fff;
+  border-radius: 35px;
+  border: #87ab5499 solid 6px;
+  color: #515b58;
+  -webkit-box-shadow: 0px 0px 15px 2px rgba(135, 171, 84, 0.25) inset;
+  -moz-box-shadow: 0px 0px 15px 2px rgba(135, 171, 84, 0.25) inset;
+  box-shadow: 0px 0px 15px 2px rgba(135, 171, 84, 0.25) inset;
 }
 
 @media screen and (max-width: 1279.98px) {
   .introduction {
-    margin: 55px auto 150px;
+    width: 98vw;
+    margin: 80px auto 110px;
   }
 }
 
 @media screen and (max-width: 1023.98px) {
   .introduction {
-    margin: 50px auto 100px;
+    margin: 70px auto 90px;
   }
 }
 
 @media screen and (max-width: 767.98px) {
   .introduction {
-    margin: 50px auto 80px;
+    margin: 65px auto 80px;
   }
 }
 
 @media screen and (max-width: 479.98px) {
   .introduction {
-    margin: 35px auto 60px;
+    margin: 55px auto 70px;
   }
 }
-
-
-
-
-/* 
-#e1dddc
-#f4f4f4
-#f3f3f3 
-*/

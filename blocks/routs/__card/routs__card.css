@@ -1,22 +1,17 @@
 .routs__card {
-  max-width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-@media screen and (max-width: 1279.98px) {
-  
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto auto 150px 170px 77px auto;
 }
 
 @media screen and (max-width: 1023.98px) {
-  
+  .routs__card {
+    grid-template-rows: auto auto 120px 185px 85px auto;
+  }
 }
 
 @media screen and (max-width: 767.98px) {
-  
-}
-
-@media screen and (max-width: 479.98px) {
-  
+  .routs__card {
+    grid-template-rows: repeat(7, auto);
+  }
 }

@@ -11,15 +11,13 @@
 </head>
 <body class="page">
   <header class="header">
-    <div class="header__links">
-      <a class="header__link" href="https://t.me/samsebeput" target="_blank">
-        <img src="./images/logo-main/telegram.png" alt="Иконка Телеграмм">
-      </a>
-      <a class="header__link" href="https://vk.com/samsebepute" target="_blank">
-        <img src="./images/logo-main/vk.png" alt="Иконка ВКонтакте">
-      </a>
+    <div class="header__flex">
+      <div class="header__links">
+        <a href="https://t.me/samsebeput" target="_blank"><img class="header__link" src="./images/logo-main/telegram.png" alt="Иконка Телеграмм"></a>
+        <a href="https://vk.com/samsebeputeshes" target="_blank"><img class="header__link" src="./images/logo-main/vk.png" alt="Иконка ВКонтакте"></a>
+      </div>
+      <a class="header__button" href="https://previewer.adalo.com/bb9e4346-97e7-4796-a239-95c19a1535c0" target="_blank">Загрузить приложение</a>
     </div>
-    <a class="header__button" href="#">Загрузить</a>
   </header>
   <main class="content">
     <section class="introduction">
@@ -48,81 +46,104 @@
         </p>
       </div>
     </section>
+        
     <section class="routs">
       <h2 class="routs__title">Примеры наших маршрутов</h2>
       <div class="routs__grid">
         <div class="routs__card">
+          <h3 class="routs__subtitle">Иван Грозный в Александрове</h3>
           <img class="routs__pic" src="./images/picture/photo_grid-1.png" alt="">
-          <h3 class="routs__subtitle">"Иван Грозный в Александрове"</h3>
           <div class="routs__flex">
-            <p class="routs__text"><b>Ярославское <br> направление</b></p>
-            <ul class="routs__text points">
+            <h4 class="routs__name">Ярославское <br> направление</h4>
+            <ul class="routs__text">
               <li>Протяженность ~ 172 км</li>
               <li>Продолжительность ~ 10 ч</li>
               <li>Основных объектов - 3</li>
             </ul>
-            <p class="routs__text"><b>Программа:</b></p>
+          </div>
+          <div class="routs__flex button-text">
+            <h4 class="routs__name">Программа:</h4>
             <ul class="routs__text">
               <li>Музей-заповедник "Александровская слобода"</li>
               <li>алтарь Спасо-Вифанского монастыря</li>
               <li>бани в "Русской деревне"</li>
             </ul>
-            <p class="routs__text"><b>Тип программы:</b> познавательно-оздоровительный</p>
           </div>
-          <p class="routs__text"><b>Пример аудио-гида</b></p>
-          <audio class="routs__audio" controls>
-            <source src="./audio/ivan-grozni.ogg" type="audio/ogg; codecs=vorbis">
-            <source src="./audio/ivan-grozni.mp3" type="audio/mpeg">
-          </audio>
-        </div>
-        <div class="routs__card">
-          <img class="routs__pic" src="./images/picture/photo_grid-2.png" alt="">
-          <h3 class="routs__subtitle">"Киногород и знаменитая усадьба"
-           </h3>
           <div class="routs__flex">
-            <p class="routs__text"><b>Ленинградское <br> направление</b></p>
-            <ul class="routs__text points">
+            <h4 class="routs__name">Тип программы:</h4>
+            <p class="routs__text">познавательно-оздоровительный</p> 
+          </div>
+          <div class="routs__flex">
+            <h4 class="routs__name">Пример аудио-гида</h4>
+            <audio class="routs__audio" controls>
+              <source src="./audio/ivan-grozni.ogg" type="audio/ogg; codecs=vorbis">
+              <source src="./audio/ivan-grozni.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
+
+        <div class="routs__card">
+          <h3 class="routs__subtitle">Киногород и знаменитая усадьба</h3>
+          <img class="routs__pic" src="./images/picture/photo_grid-2.png" alt="">
+          <div class="routs__flex">
+            <h4 class="routs__name">Ленинградское <br> направление</h4>
+            <ul class="routs__text">
               <li>Протяженность ~ 104 км</li>
               <li>Продолжительность ~ 7 ч</li>
               <li>Основных объектов - 3</li>
             </ul>
-            <p class="routs__text"><b>Программа:</b></p>
+          </div>
+          <div class="routs__flex button-text">
+            <h4 class="routs__name">Программа:</h4>
             <ul class="routs__text">
               <li>Усадьба Столыпиных-Лермонтовых</li>
               <li>Киногород "Piligrim Porto"</li>
               <li>Николо-Пешношский монастырь - "Вторая лавра" России</li>
             </ul>
-            <p class="routs__text"><b>Тип программы:</b> познавательно-развлекательный</p>
           </div>
-          <p class="routs__text"><b>Пример аудио-гида</b></p>
-          <audio class="routs__audio" controls>
-            <source src="./audio/liter.ogg" type="audio/ogg; codecs=vorbis">
-            <source src="./audio/liter.mp3" type="audio/mpeg">
-          </audio>
-        </div>
-        <div class="routs__card">
-          <img class="routs__pic" src="./images/picture/photo_grid-3.png" alt="">
-          <h3 class="routs__subtitle">"Волоколамские мотивы"</h3>
           <div class="routs__flex">
-            <p class="routs__text"><b>Волоколамское <br> направление</b></p>
-            <ul class="routs__text points">
+            <h4 class="routs__name">Тип программы:</h4>
+            <p class="routs__text">познавательно-развлекательный</p> 
+          </div>
+          <div class="routs__flex">
+            <h4 class="routs__name">Пример аудио-гида</h4>
+            <audio class="routs__audio" controls>
+              <source src="./audio/liter.ogg" type="audio/ogg; codecs=vorbis">
+              <source src="./audio/liter.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+        </div>
+
+        <div class="routs__card">
+          <h3 class="routs__subtitle">Волоколамские мотивы</h3>
+          <img class="routs__pic" src="./images/picture/photo_grid-3.png" alt="">
+          <div class="routs__flex">
+            <h4 class="routs__name">Волоколамское <br> направление</h4>
+            <ul class="routs__text">
               <li>Протяженность ~ 158 км</li>
               <li>Продолжительность ~ 10 ч</li>
               <li>Основных объектов - 3</li>
             </ul>
-            <p class="routs__text"><b>Программа:</b></p>
+          </div>
+          <div class="routs__flex button-text">
+            <h4 class="routs__name">Программа:</h4>
             <ul class="routs__text">
               <li>Иосифо-Волоцкий монастырь и музей библии</li>
               <li>Волоколамский кремль</li>
               <li>агро-туристическая ферма"Ольгино"</li>
             </ul>
-            <p class="routs__text"><b>Тип программы:</b> познавательно-гастрономический</p>
           </div>
-          <p class="routs__text"><b>Пример аудио-гида</b></p>
-          <audio class="routs__audio" controls>
-            <source src="./audio/iosif-voloc.ogg" type="audio/ogg; codecs=vorbis">
-            <source src="./audio/iosif-voloc.mp3" type="audio/mpeg">
-          </audio>
+          <div class="routs__flex">
+            <h4 class="routs__name">Тип программы:</h4>
+            <p class="routs__text">познавательно-гастрономический</p> 
+          </div>
+          <div class="routs__flex">
+            <h4 class="routs__name">Пример аудио-гида</h4>
+            <audio class="routs__audio" controls>
+              <source src="./audio/iosif-voloc.ogg" type="audio/ogg; codecs=vorbis">
+              <source src="./audio/iosif-voloc.mp3" type="audio/mpeg">
+            </audio>
+          </div>
         </div>
       </div>
     </section>
@@ -175,7 +196,7 @@
               <li>"Термы и фитнес"</li>
               <li>Ярославское направление</li>
               <li>Расстояние от Москвы 34 км</li>
-              <li>Рекомендуемая погода: пасмурная, дождливая</li>
+              <li>Рекомендуемая погода: пасмурная</li>
               <li>Впечатления: состояние релакс</li>
             </ul>
           </div>
@@ -194,20 +215,21 @@
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <button class="carousel-control-prev left" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon button" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <button class="carousel-control-next right" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon button" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </section>
 
+    
+
     <section class="tagline">
       <h2 class="tagline__title">Приобретайте  эмоции и впечатления, делая свою жизнь интересной и разнообразной.</h2>
       <h2 class="tagline__title">Никаких забот - только впечатления!</h2>
-      <form action="#"><button class="tagline__button">Загрузить приложение</button></form>
     </section>
   </main>
     <footer class="footer">

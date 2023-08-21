@@ -1,41 +1,32 @@
 .routs__subtitle {
-  margin: 27px auto;
-  height: 100px;
+  margin: 0 auto 15px;
   text-align: center;
-  font-weight: 700;
-  font-size: 33px;
-  line-height: 34px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 26px;
 }
 
 @media screen and (max-width: 1279.98px) {
-  .routs__subtitle {
-    font-size: 28px;
-    line-height: 29px;
-    margin: 20px auto;
-  }
+  
 }
 
 @media screen and (max-width: 1023.98px) {
   .routs__subtitle {
-    font-size: 23px;
-    line-height: 25px;
-    height: 80px;
-    margin: 16px auto;
+    font-size: 20px;
+    line-height: 22px;
   }
 }
 
 @media screen and (max-width: 767.98px) {
   .routs__subtitle {
-    font-size: 34px;
-    line-height: 35px;
-    height: auto;
-    margin: 25px auto;
+    font-size: 30px;
+    line-height: 32px;
   }
 }
 
 @media screen and (max-width: 479.98px) {
   .routs__subtitle {
-    font-size: 25px;
-    line-height: 26px;
+    font-size: 28px;
+    line-height: 30px;
   }
 }

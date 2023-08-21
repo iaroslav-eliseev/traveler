@@ -1,41 +1,35 @@
 .routs__title {
-  margin: 0 auto 50px;
-  padding: 0 30px;
+  margin: 0 auto 25px;
+  padding: 5px 15px;
   max-width: 900px;
   text-align: center;
-  font-weight: 500;
-  font-size: 45px;
-  line-height: 50px;
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 40px;
   text-transform: uppercase;
-}
-
-@media screen and (max-width: 1279.98px) {
-  .routs__title {
-    font-size: 40px;
-    line-height: 43px;  
-    margin: 0 auto 35px;
-  }
 }
 
 @media screen and (max-width: 1023.98px) {
   .routs__title {
-    font-size: 34px;
+    font-size: 36px;
     line-height: 37px;
-    margin: 0 auto 20px;
   }
 }
 
 @media screen and (max-width: 767.98px) {
   .routs__title {
-    font-size: 40px;
-    line-height: 47px;
-    margin: 0 auto 35px;
+    max-width: 400px;
+    font-size: 36px;
+    line-height: 40px;
+    border-bottom: 2px #373737 solid;
   }
 }
 
 @media screen and (max-width: 479.98px) {
   .routs__title {
-    font-size: 25px;
-    line-height: 27px;
+    margin: 0 auto 40px;
+    max-width: 350px;
+    font-size: 34px;
+    line-height: 36px;
   }
 }
