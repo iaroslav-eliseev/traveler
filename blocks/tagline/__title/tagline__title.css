@@ -1,6 +1,5 @@
 .tagline__title {
   margin: 0 auto;
-  padding: 0 25px;
   text-align: center;
   font-weight: 500;
   font-size: 45px;
@@ -30,7 +29,7 @@
 
 @media screen and (max-width: 479.98px) {
   .tagline__title {
-    font-size: 25px;
+    font-size: 24px;
     line-height: 27px;  
   }
 }
