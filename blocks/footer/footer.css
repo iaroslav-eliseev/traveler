@@ -37,6 +37,11 @@
   margin: 0;
 }
 
+.footer__contacts a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+}
 
 
 @media screen and (max-width: 1279.98px) {
