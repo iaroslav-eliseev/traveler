@@ -39,8 +39,8 @@
 
 .footer__contacts a {
   text-decoration: none;
+  border-bottom: 1px solid #fff;
   color: #fff;
-  font-weight: 400;
 }
 
 
